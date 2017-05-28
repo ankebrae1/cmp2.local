@@ -1,0 +1,394 @@
+/*
+Theme Name: jupiler v4
+Theme URI: http://arteveldehogeschool.be/
+Description: theme op basis van devaid
+Version: 1.0
+Tags: arteveldehogeschool, grafimediabeleid, crossmedia publishing, wordpress
+Author: Anke Braeckman, Kristof Lettens
+*/
+* {
+    margin: 0;
+}
+html, body {
+    height: 100%;
+}
+.wrapper {
+	min-height: 100%;
+	margin: 0 auto;
+}
+
+li{
+  list-style-type: none;
+}
+.navbar-nav>li>a{
+color:white;
+}
+.navbar-right{
+  display: inline-block;
+  float:right;
+}
+.navbar-right>li>a {  
+  color:white !important;
+}
+.navbar-right>li>a:hover {  
+  color:black !important;
+}
+/*LALA*/
+.navbar, .navbar-inverse {
+	border-radius: 0;
+	border: none;
+	margin-bottom: 0;
+	min-height: 80px;
+}
+
+.nav li {
+	display: inline;
+	color: white;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+	color: #ffffff;
+	font-family: Lato;
+	font-size: 1.7em;
+	font-weight: 300;
+	padding: 30px 25px 33px 25px;
+}
+
+.navbar-inverse .navbar-nav li a:hover {
+	background-color: #444444;
+	transition: 0.7s all linear;
+	height: 100%;
+}
+/*LALA*/
+
+body {
+  font-family: 'Lato', arial, sans-serif;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin-top: 150px;
+  height: 100%;
+}
+h1{
+  font-family: 'Anton', sans-serif;
+}
+
+h1, h2{
+  font-weight: 700;
+  color: #d32239;
+}
+
+h2{
+  margin-top: 100px;
+}
+
+h3,
+h5,
+h6 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  color: black;
+}
+
+a {
+  color: #d32239;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+}
+a:hover {
+  text-decoration: none;
+  color: #878689;
+}
+
+/*img{
+  width: 30%;
+  height: 30%;
+  padding-right: 20px;
+  float: left;
+}*/
+
+
+/* --------------- header --------------- */
+.navbar{
+  background-color: #d32239;
+}
+.navbar-toggle{
+  float: left !important;
+}
+
+#containerLogo {
+  width: 100px;
+  height: 100px;
+  margin-right:0px !important;
+}
+
+#containerBanner{
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+}
+#tagline {
+  font-family: 'Anton', sans-serif;
+  font-size: 0.8em;
+  color: white;
+  margin-top: -55px;
+}
+
+.logo{
+    color: black;
+    vertical-align: center;
+}
+
+.content {
+  padding-bottom: 70px;
+}
+
+#titelBanner {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.logo img, .logo span {
+  display: inline-block;
+  max-height: 100px;
+  width: auto;
+}
+.icon-bar{
+  color: black;
+}
+
+.glyphicon{
+  color: white;
+}
+
+.glyphicon:hover{
+  color: #d32239;
+}
+
+.menu-item a, .menu-item:visited a{
+color:white !important; 
+font-family: 'Anton', sans-serif;
+}
+
+.menu-item a:hover{
+  color: #d32239 !important;
+}
+#bannerImage {
+  width: 100%;
+  height: auto;
+}
+
+.nav-zwart{
+  background-color: black;
+}
+
+.log{
+  color:white !important; 
+  font-family: 'Anton', sans-serif;
+}
+
+.log:hover{
+  color: red !important;
+}
+
+
+/* --------------- over --------------- */
+img_over{
+  width: 30%;
+  height: 30%;
+  padding-right: 20px;
+  float: left;
+}
+
+
+/* --------------- nieuws --------------- */
+.permalinkNieuws {
+font-style: italic;
+}
+.klein{
+  font-size: 12px;
+}
+.title {
+  text-transform: uppercase;
+}
+.sub-title{
+font-weight: bold;
+text-transform: uppercase;
+color: #d32239; 
+}
+.nieuwsNavigatie {
+  text-align: center;
+}
+.nieuwsNavigatie a, .nieuwsNavigatie a span{
+    color: #d32239;
+    font-weight: bold;
+    text-decoration: none;
+}
+.nieuwsNavigatie a:hover, .nieuwsNavigatie a:hover span{
+    color: black;
+        text-decoration: none;
+}
+/* --------------- footer --------------- */
+.footer{
+  background-color: #d32239;
+}
+
+#titelFooter {
+  font-family: 'Anton', sans-serif;
+  color: white;
+  font-size: 20px;
+}
+
+.social-links-menu a span{
+  font-family: 'Anton', sans-serif;
+  font-size: 12px;
+  color: black;
+}
+
+.social-links-menu a span:hover{
+   color: white;
+}
+
+.social-links-menu li{
+  display: inline-block;
+  margin: 10px;
+}
+.social-links-menu ul {
+  padding-left: 0px;
+}
+
+.fa{
+  color: black;
+}
+
+.fa:hover{
+  color: white;
+}
+
+/* --------------- sidebar --------------- */
+.sidebar{
+position:absolute;
+right: 0px;
+top: 200px;
+border-left: 2px #d32239 solid;
+} 
+#searchsubmit{
+  border: 2px solid #d32239;
+  background-color: white;
+  padding: 5px;
+  color: #d32239;
+  margin-left: 50px;
+}
+#searchsubmit:hover {
+border: 2px solid white;
+background-color: #d32239;
+color: white;
+}
+
+
+
+/* --------------- voordelen --------------- */
+.img_voordelen{
+  width: 30%;
+  height: auto;
+  padding-right: 20px;
+  float: left;
+}
+
+/* ----------------- recepten --------------- */
+
+.imgRecept{
+  width: 100%;
+  height: 200px;
+}
+
+/* ------------------ comments ---------------- */
+
+.comments-template {
+  background-color: #d32239;
+  margin-bottom: 20px;
+}
+.comment-meta {
+  color: black;
+  font-size: 0.8em;
+}
+#titelComments {
+  color: black;
+  text-align: center;
+}
+.comment-body {
+  background-color: white;
+}
+.comment-edit-link {
+
+}
+.comment-reply-link {
+
+}
+.comment {
+  margin-bottom: 15px !important;
+  padding-left: 5px;
+}
+.fn {
+  font-weight: bold;
+  color: #d32239;
+}
+.children {
+  margin-top: 5px !important;
+  padding-right: 0px;
+}
+.logged-in-as a{
+  color: black;
+    font-weight: bold;
+}
+.logged-in-as a:hover {
+ color: white;
+}
+.comment-body {
+  padding: 25px 25px;
+}
+.comments-template>ol {
+  padding-right: 40px;
+}
+.submit {
+  border: 2px solid black;
+  background-color: white;
+  padding: 5px;
+  color: black;
+  margin-left: 50px;
+}
+.submit:hover {
+border: 2px solid white;
+  background-color: #d32239;
+  color: white;
+}
+.comment p {
+  font-size: 1.2em;
+}
+textarea[name = comment] {
+  width:90%;
+padding: 5px;
+margin-left: 50px;
+margin-right: 50px;
+}
+
+.logged-in-as, .comment-form-comment label {
+  margin-left: 50px;
+}
+/* ------------------ 404 ---------------- */
+
+.titel404{
+  font-size: 70px;
+}
+
+#img404{
+  width: 50%;
+  height: auto;
+  margin-top: 50px;
+}
+
+.tekst404{
+  margin-top: 50px;
+}
